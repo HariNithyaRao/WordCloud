@@ -1,11 +1,11 @@
 def calculate_frequencies(s):
-    cloud = w.WordCloud()
+    cloud = wordcloud.WordCloud()
     cloud.generate_from_frequencies(Counter(s))
     return cloud.to_array()
 
 import streamlit as st
 import numpy as np
-import wordcloud as w
+import wordcloud 
 import io
 import sys
 from collections import Counter
