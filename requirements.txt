@@ -1,5 +1,5 @@
 numpy
 wordcloud
 streamlit
-Counter from collections
+collections
 
