@@ -4,7 +4,6 @@ def calculate_frequencies(s):
     return cloud.to_array()
 
 import streamlit as st
-import matplotlib.pyplot as plt
 import numpy as np
 import wordcloud as w
 import io
