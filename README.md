@@ -21,6 +21,3 @@ I have built the wordcloud generator using Streamlit. Just type some words and h
 
 
 https://user-images.githubusercontent.com/73685642/174941370-93014197-3857-4850-a5b5-6943bcaed03f.mp4
-
-
-
