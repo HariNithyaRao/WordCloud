@@ -1,7 +1,7 @@
 # **WORD ClOUD💭**
 
 
-## **Welcome To WordCloud Generator!🎈🎈**
+## **Welcome To WordCloud Generator ✨**
 
 
 I have built the wordcloud generator using Streamlit. Just type some words and have with the cloud😁.
