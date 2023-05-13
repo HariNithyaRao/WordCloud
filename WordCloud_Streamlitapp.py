@@ -3,8 +3,6 @@ import numpy as np
 import wordcloud 
 from collections import Counter
 
-import streamlit as st
-
 # Define some CSS styles
 css = """
 <style>
