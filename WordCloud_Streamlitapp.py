@@ -20,7 +20,7 @@ body {
 }
 </style>
 """
-st.write(css, unsafe_allow_html=True)
+st.markdown(css, unsafe_allow_html=True)
 
 def calculate_frequencies(s):
     cloud = wordcloud.WordCloud()
