@@ -3,16 +3,26 @@ import numpy as np
 import wordcloud 
 from collections import Counter
 
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://images.unsplash.com/photo-1683010606819-de5d37be0b25?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1975&q=80");
-background-size: cover;
-}
-</style>
-'''
+def set_bg_hack_url():
+    '''
+    A function to unpack an image from url and set as bg.
+    Returns
+    -------
+    The background.
+    '''
 
-st.markdown(page_bg_img, unsafe_allow_html=True)
+    st.markdown(
+        f"""
+         <style>
+         .stApp {{
+             background: url("https://cdn.pixabay.com/photo/2020/06/19/22/33/wormhole-5319067_960_720.jpg");
+             background-size: cover
+         }}
+         </style>
+         """,
+        unsafe_allow_html=True
+    )
+set_bg_hack_url()
 
 def calculate_frequencies(s):
     cloud = wordcloud.WordCloud()
